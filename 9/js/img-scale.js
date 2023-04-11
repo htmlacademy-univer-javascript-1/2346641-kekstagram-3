@@ -1,7 +1,7 @@
 // Image scale control module
 import {form} from './main.js';
+import {image} from './img-effects.js';
 
-const image = document.querySelector('.img-upload__preview > img');
 const scaleControlContainer = document.querySelector('.scale__control--value');
 
 const setScaleValue = function (nval) {
